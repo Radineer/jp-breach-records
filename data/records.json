@@ -11394,7 +11394,7 @@
  },
  {
   "id": "d111f8ff5c9cb9a25a25",
-  "org": "青森県／青森県公式ファンコミュニティ「青森びいき」(運営: コミューン株式会社)",
+  "org": "青森県／青森県公式ファンコミュニティ「青森びいき」",
   "published": "2026-10-08",
   "latest": "2026-10-08",
   "events": [
@@ -11410,33 +11410,11 @@
   ],
   "counts": [],
   "sources": [
-   "https://www.pref.aomori.lg.jp/release/2026/81561.html"
-  ],
-  "review": "AI分類・別モデル照合前",
-  "url": "https://radineer.asia/cyber/cases/d111f8ff5c9cb9a25a25/"
- },
- {
-  "id": "e7084bb89bcbdf8e7620",
-  "org": "青森県／青森県公式ファンコミュニティ「青森びいき」",
-  "published": "2026-10-08",
-  "latest": "2026-10-08",
-  "events": [
-   "不正アクセス"
-  ],
-  "status": "流出のおそれ",
-  "nature": "記載を確認できず",
-  "where": "記載を確認できず",
-  "how": "記載を確認できず",
-  "device": "記載を確認できず",
-  "info_types": [
-   "その他"
-  ],
-  "counts": [],
-  "sources": [
+   "https://www.pref.aomori.lg.jp/release/2026/81561.html",
    "https://www.pref.aomori.lg.jp/release/2026/81562.html"
   ],
   "review": "AI分類（人手による全件確認なし）",
-  "url": "https://radineer.asia/cyber/cases/e7084bb89bcbdf8e7620/"
+  "url": "https://radineer.asia/cyber/cases/d111f8ff5c9cb9a25a25/"
  },
  {
   "id": "f389b6a9a163ce07bfdf",
@@ -12284,7 +12262,7 @@
   "id": "157d393eb51ffba44a88",
   "org": "さいたま市／防災行政無線メール・災害時防災情報電話サービス（システム提供元: 株式会社アルカディア）",
   "published": "2026-10-13",
-  "latest": "2026-10-13",
+  "latest": "2026-10-16",
   "events": [
    "不正アクセス"
   ],
@@ -12296,7 +12274,8 @@
   "info_types": [
    "氏名",
    "メールアドレス",
-   "電話番号"
+   "電話番号",
+   "その他"
   ],
   "counts": [
    {
@@ -12308,10 +12287,26 @@
     "label": "災害時防災情報電話サービス（氏名、電話番号）",
     "value": "73件",
     "status": "おそれ"
+   },
+   {
+    "label": "防災行政無線メールのメールアドレス",
+    "value": "34,783件",
+    "status": "おそれ"
+   },
+   {
+    "label": "うち本市職員の氏名と紐づいて漏洩していたメールアドレス",
+    "value": "195件",
+    "status": "おそれ"
+   },
+   {
+    "label": "災害時防災情報電話サービスの氏名、電話番号またはFAX番号",
+    "value": "73件",
+    "status": "おそれ"
    }
   ],
   "sources": [
-   "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134471.html"
+   "https://www.city.saitama.lg.jp/006/014/008/003/015/007/p134471.html",
+   "https://www.city.saitama.lg.jp/001/011/015/004/002/p134482.html"
   ],
   "review": "AI分類（人手による全件確認なし）",
   "url": "https://radineer.asia/cyber/cases/157d393eb51ffba44a88/"
@@ -12677,48 +12672,6 @@
   ],
   "review": "AI分類・別モデル照合前",
   "url": "https://radineer.asia/cyber/cases/604cef4314d1c1002561/"
- },
- {
-  "id": "61886a297a1aa5e6a05d",
-  "org": "さいたま市／防災情報配信システム（防災行政無線メール・災害時防災情報電話サービス）（提供元：株式会社アルカディア）",
-  "published": "2026-10-13",
-  "latest": "2026-10-16",
-  "events": [
-   "不正アクセス"
-  ],
-  "status": "流出のおそれ",
-  "nature": "記載を確認できず",
-  "where": "記載を確認できず",
-  "how": "記載を確認できず",
-  "device": "記載を確認できず",
-  "info_types": [
-   "氏名",
-   "メールアドレス",
-   "電話番号",
-   "その他"
-  ],
-  "counts": [
-   {
-    "label": "防災行政無線メールのメールアドレス",
-    "value": "34,783件",
-    "status": "おそれ"
-   },
-   {
-    "label": "うち本市職員の氏名と紐づいて漏洩していたメールアドレス",
-    "value": "195件",
-    "status": "おそれ"
-   },
-   {
-    "label": "災害時防災情報電話サービスの氏名、電話番号またはFAX番号",
-    "value": "73件",
-    "status": "おそれ"
-   }
-  ],
-  "sources": [
-   "https://www.city.saitama.lg.jp/001/011/015/004/002/p134482.html"
-  ],
-  "review": "AI分類（人手による全件確認なし）",
-  "url": "https://radineer.asia/cyber/cases/61886a297a1aa5e6a05d/"
  },
  {
   "id": "69f341c615aafed87279",
